@@ -1,15 +1,25 @@
-# Sentiment Analysis with FastAPI
+💬 Sentiment Analysis API using FastAPI
 
-This project is a sentiment analysis app built using:
-1.Logistic Regression
-2.Scikit-learn
-3.FastAPI
+This project is a simple Sentiment Analysis API that uses a Logistic Regression model to classify input text as **positive** or **negative** sentiment. It is built using FastAPI and Scikit-learn.
 
-Steps-
-1.Train the model.
-2.Start the API.
-3.Make a POST request to '/predict' with:
-json
-{
-"text": "I loved this movie!"
-}
+---
+
+## 🔧 Technologies Used
+
+- Logistic Regression (Scikit-learn)
+- TF-IDF Vectorizer
+- FastAPI
+- Uvicorn
+- Joblib
+
+---
+
+## 📁 Project Structure
+
+sentiment-api/
+├── train_model.py # Trains and saves the model and vectorizer
+├── app.py # FastAPI app to expose /predict API
+├── sentiment_model.pkl # Saved Logistic Regression model
+├── vectorizer.pkl # Saved TF-IDF vectorizer
+└── README.md # Project documentation
+
