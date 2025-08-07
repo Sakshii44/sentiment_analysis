@@ -13,13 +13,3 @@ This project is a simple Sentiment Analysis API that uses a Logistic Regression 
 - Joblib
 
 ---
-
-## 📁 Project Structure
-
-sentiment-api/
-├── train_model.py # Trains and saves the model and vectorizer
-├── app.py # FastAPI app to expose /predict API
-├── sentiment_model.pkl # Saved Logistic Regression model
-├── vectorizer.pkl # Saved TF-IDF vectorizer
-└── README.md # Project documentation
-
